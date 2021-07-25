@@ -31,7 +31,7 @@ function takepic(){
 }
 function draw(){
  image(video,0,0,300,300);
-image(mustache,nose_x-50,nose_y+20,120,100);
+image(mustache,nose_x-50,nose_y,120,100);
 }
 function modelloaded(){
   console.log("model loaded succesfully")
